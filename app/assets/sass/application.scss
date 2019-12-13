@@ -126,6 +126,19 @@ $govuk-assets-path: '/govuk/assets/';
   a.grey:hover {
     color: govuk-colour("light-blue");
   }
+  }
+
+.govuk-error-summary.blue {
+    border: 5px solid govuk-colour("blue");
+
+    .govuk-error-summary__list a:link  {
+      color: govuk-colour("blue");
+    }
+
+    .govuk-error-summary__list a:visited  {
+      color: govuk-colour("blue");
+    }
+
 
 }
 
