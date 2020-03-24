@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+
+  
+  
+
+         <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">Apply for access to the Learning Records Service</h1>
+        
+
+        <h2 class="govuk-heading-m">What you'll need to do:</h2>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>enter your organisation UKPRN</li>
+          <li>set up a super user</li>
+          <li>verify your organisation</li>
+        </ul>
+
+      <h2 class="govuk-heading-m">What you'll need</h2>
+
+      <ul class="govuk-list govuk-list--bullet">
+          <li>a UKPRN</li>
+          <li>the details of the super user who will look after the account</li>
+          
+          
+        </ul><br><br>
+
+        <a href="find" class="govuk-button show-continue" style="display: inline;">
+      Continue to apply
+    </a>
+
+      </div>
+
+      <div class="govuk-grid-column-one-third">
+
+        <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
+
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Related content
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-!-font-size-16">
+              <li>
+                <a class="govuk-link" href="https://www.ukrlp.co.uk"target="_blank">
+                  Register on UKRLP
+                </a>
+              </li>
+              <li>
+                <a class="govuk-link" href="#">
+                  Related link
+                </a>
+              </li>
+              <li>
+                <a href="#" class="govuk-link govuk-!-font-weight-bold">
+                  More <span class="govuk-visually-hidden">in Subsection</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+
+{% endblock %}

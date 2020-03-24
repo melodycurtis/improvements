@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">Applying to register for the Learning Records Service</h1>
+
+    <hr><br>
+
+
+    <span id="dob-hint" class="govuk-hint">The college of Leicester<br>
+UKPRN: 87651234<br>Address: St James Road Leicester LC3A 5DE</span>
+
+ <span id="dob-hint" class="govuk-hint">Contact<br>
+Helen Taylor<br>Telephone: 02476123456<br>Email: hellen@leicester.gov.uk<br>
+Website: https://leicestercollege.ac.uk
+</span>
+
+
+    
+      
+
+    </legend>
+    <p><span style="margin-bottom: 10px; text-align: right;padding-left: 90%">Added</span></p>
+
+    <hr><br>
+
+    <fieldset class="govuk-fieldset" aria-describedby="dob-hint" role="group">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+      <h1 class="govuk-fieldset__heading">
+        Are these details correct?
+      </h1>
+    </legend>
+
+    
+    <div class="govuk-radios govuk-radios--inline">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+        <label class="govuk-label govuk-radios__label" for="changed-name">
+          Yes
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+        <label class="govuk-label govuk-radios__label" for="changed-name-2">
+          No
+        </label></div></div>
+        <br><span id="changed-name-hint" class="govuk-hint">
+      If the details are not correct change them at <a href="https://www.ukrlp.co.uk"target="_blank">www.ukrlp.co.uk</a> </span>
+
+
+        <br>
+
+
+          <a href="location" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+
+
+      
+    
+  </fieldset>
+</div>
+
+
+ 
+  </fieldset>
+  
+ 
+  </fieldset>
+</div>
+</div> 
+    
+</div>
+
+</div>
+        </div>
+  </div>
+</div>
+
+    
+</div>
+    
+
+{% endblock %}
