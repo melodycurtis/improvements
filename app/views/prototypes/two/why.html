@@ -19,23 +19,28 @@
 
 <div class="govuk-form-group">
   <fieldset class="govuk-fieldset">
+    
+
+    <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
-        How many learner records does your organisation expect to view or create per year?</h1>
+        Why do you need access to the Learning Records Service?
+      </h1>
     </legend><br>
     
-  </fieldset>
-</div>
-
-<p>If you are expecting an increase in learners - include this in your estimate.</p>
+    
 
 
 
 <div class="govuk-form-group">
-  <label class="govuk-label" for="width-10">
-    Enter an estimate for an academic year.
+  <label class="govuk-label" for="more-detail">
+    Can you?
   </label>
-  <input class="govuk-input govuk-input--width-10" id="width-10" name="width-10" type="text">
+  <span id="more-detail-hint" class="govuk-hint">
+    Do not include..
+  </span>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
 </div>
 
  
@@ -43,7 +48,7 @@
 </div>
 </div>
  
-   <a href="super" class="govuk-button show-continue" style="display: inline;">
+   <a href="quantity" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
     
