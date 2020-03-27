@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    
+
+    <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        Will you be the super user?
+      </h1>
+    </legend><br>
+    <span id="changed-name-hint" class="govuk-hint">
+      A super user is the person in your orgnisation that will be responsible for administrating access to the LRS
+    </span>
+    <div class="govuk-radios govuk-radios--inline">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+        <label class="govuk-label govuk-radios__label" for="changed-name">
+          Yes
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+        <label class="govuk-label govuk-radios__label" for="changed-name-2">
+          No
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+    
+  </fieldset>
+</div>
+
+
+
+
+
+ 
+  </fieldset>
+</div>
+</div>
+ 
+   <a href="super" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+</div>
+
+</div>
+        </div>
+  </div>
+</div>
+
+    
+</div>
+
+
+
+    
+
+{% endblock %}
