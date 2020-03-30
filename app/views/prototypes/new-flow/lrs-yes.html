@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    
+
+    <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        Why do you need to find or create Unique Learner Numbers?
+      </h1>
+    </legend><br>
+    <span id="nationality-hint" class="govuk-hint">
+      Select all options that apply.
+    </span>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+          To complete  the school census
+        </label>
+        
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
+          The awarding body we work with requires it
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          To get funding from the Education and Skills Funding Agency
+        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+To support the Future Digital Inclusion Programme. Funded via Good Things Foundation        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+To get funding from the Northern Ireland European Social Fund Managing Authority        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+Search for learners and their Personal Learning Record        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="citizenship-conditional-3" name="citizen" type="checkbox" value="text message" data-aria-controls="conditional-citizenship-conditional-3">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-3">
+          Other
+        </label>
+      </div>
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-citizenship-conditional-3">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-text">
+            Mobile phone number
+          </label>
+          <input class="govuk-input govuk-!-width-one-third" id="contact-by-text" name="contact-by-text" type="tel">
+        </div>
+
+      </div>
+    </div>
+  </fieldset>
+</div>
+</fieldset><br><br>
+
+
+ 
+   <a href="plr-why" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+
+
+</div>
+</div>
+
+    
+
+{% endblock %}
