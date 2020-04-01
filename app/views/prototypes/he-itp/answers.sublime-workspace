@@ -176,10 +176,11 @@
 	},
 	"file_history":
 	[
-		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/added.html",
-		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/lrs-yes.html",
+		"/Users/melodycurtis/projects/GIT-lesson_intermediate/index.html",
 		"/Users/melodycurtis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/melodycurtis/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/added.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/lrs-yes.html",
 		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/location.html",
 		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/companies-house.html",
 		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/ico.html",
@@ -302,8 +303,7 @@
 		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/three.html",
 		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/four.html",
 		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/five.html",
-		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/six.html",
-		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/eight.html"
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/six.html"
 	],
 	"find":
 	{
@@ -383,7 +383,7 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "",
-	"project": "index.sublime-project",
+	"project": "answers.sublime-project",
 	"replace":
 	{
 		"height": 70.0
@@ -421,7 +421,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,
 	"side_bar_width": 273.0,
