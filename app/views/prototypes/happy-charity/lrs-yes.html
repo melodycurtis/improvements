@@ -1,0 +1,98 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+<div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    
+
+    <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        Why do you need to find or create Unique Learner Numbers?
+      </h1>
+    </legend><br>
+    <span id="nationality-hint" class="govuk-hint">
+      Select all that apply
+    </span>
+    <div class="govuk-checkboxes">
+      
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-1" name="" type="checkbox" value="">
+        <label class="govuk-label govuk-checkboxes__label" for="">
+          The awarding body we work with requires it
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          To get funding from the Education and Skills Funding Agency
+        </label>
+      </div>
+
+      
+
+      
+
+     
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="text message" data-aria-controls="nationality-3">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          Other
+        </label>
+      </div>
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="nationality-3">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-text">
+            Add information
+          </label>
+          <input class="govuk-input govuk-!-width-one-third" id="contact-by-text" name="contact-by-text" type="">
+        </div>
+
+      </div>
+    </div>
+  </fieldset>
+</div>
+</fieldset><br><br>
+
+
+ 
+   <a href="plr-why" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+
+
+</div>
+</div>
+
+    
+
+{% endblock %}
