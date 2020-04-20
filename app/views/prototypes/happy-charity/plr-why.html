@@ -28,63 +28,56 @@
 
 
 <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset">
-    
-
-    <div class="govuk-form-group">
-  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+  <fieldset class="govuk-fieldset" aria-describedby="citizenship-conditional-hint">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
-        Why do you need to view the 
-Personal Learner Record?
+        Why do you need to view the Personal Learner Record?
       </h1>
-    </legend><br>
-    <span id="nationality-hint" class="govuk-hint">
+    </legend>
+    <span id="citizenship-conditional-hint" class="govuk-hint">
       Select all that apply
     </span>
-    <div class="govuk-checkboxes">
+    <div class="govuk-checkboxes" data-module="govuk-checkboxes">
       <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
-        <label class="govuk-label govuk-checkboxes__label" for="nationality">
-To support careers advice and guidance        </label>
-        <!--<span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
-          Message
-        </span>-->
+        <input class="govuk-checkboxes__input" id="citizenship-conditional" name="citizen" type="checkbox" value="email" data-aria-controls="conditional-citizenship-conditional">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional">
+          To support careers advice and guidance
+        </label>
       </div>
+     
       <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
-        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
-          To support funding rules and eligibility of prospective learners
+        <input class="govuk-checkboxes__input" id="citizenship-conditional-2" name="citizen" type="checkbox" value="phone" data-aria-controls="conditional-citizenship-conditional-2">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-2">
+         To support funding rules and eligibility of prospective learners
+        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="citizenship-conditional-2" name="citizen" type="checkbox" value="phone" data-aria-controls="conditional-citizenship-conditional-2">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-2">
+         To identify the correct learner record or Unique Learner Number
         </label>
       </div>
       
-
       <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
-        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
-To identify the correct learner record or Unique Learner Number      </label>
+        <input class="govuk-checkboxes__input" id="citizenship-conditional-3" name="citizen" type="checkbox" value="text message" data-aria-controls="conditional-citizenship-conditional-3">
+        <label class="govuk-label govuk-checkboxes__label" for="citizenship-conditional-3">
+          Other reasons 
+        </label>
       </div>
+      <div class="govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden" id="conditional-citizenship-conditional-3">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-text">
+            Enter your reasons
+          </label>
+          <input class="govuk-input govuk-textarea" id="contact-by-text" name="contact-by-text" type="tel">
+        </div>
 
-
-
-      
-
-      <div class="govuk-checkboxes__item">
-        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
-        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
-Other      </label>
       </div>
-
-
     </div>
   </fieldset>
 </div>
-    
-  </fieldset>
-</div>
- 
-</div>
-</div>
+
  
    <a href="quantity" class="govuk-button show-continue" style="display: inline;">
       Continue
