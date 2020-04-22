@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+<div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+
+<div class="govuk-form-group">
+  <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="example">
+      govuk-label--l
+    </label>
+
+  </h1>
+  <span id="example-hint" class="govuk-hint">
+    This example shows an &lt;h1&gt; around a &lt;label&gt; with the class of govuk-label--l
+  </span>
+  <input class="govuk-input" id="example" name="example" type="text" aria-describedby="example-hint">
+</div>
+
+<div class="govuk-form-group">
+  <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--l" for="example-2">
+      govuk-label--l
+    </label>
+
+  </h1>
+  <span id="example-2-hint" class="govuk-hint">
+    This example shows an &lt;h1&gt; around a &lt;label&gt; with the class of govuk-label--l
+  </span>
+  <input class="govuk-input" id="example-2" name="example-2" type="text" aria-describedby="example-2-hint">
+</div>
+
+
+          
+
+
+</div>
+</div>
+
+    
+
+{% endblock %}
