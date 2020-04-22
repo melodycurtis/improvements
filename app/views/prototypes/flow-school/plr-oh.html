@@ -1,0 +1,120 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    
+
+    <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="nationality-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        Why does your organisation need to view the 
+Personal Learner Record (PLR)?
+      </h1>
+    </legend>
+    <span id="nationality-hint" class="govuk-hint">
+      Select all options that are relevant to you.
+    </span>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality" name="nationality" type="checkbox" value="british" aria-describedby="nationality-item-hint">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality">
+To support careers advice and guidance        </label>
+        <span id="nationality-item-hint" class="govuk-hint govuk-checkboxes__hint">
+          Message
+        </span>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-2" name="nationality" type="checkbox" value="irish">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-2">
+          To support funding rules and funding eligibility of prospective learners
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+          To check if  learners are enrolling on the right course and have the right qualifications
+        </label>
+      </div>
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+To identify the correct learner record       </label>
+      </div>
+
+
+
+      
+
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="nationality-3" name="nationality" type="checkbox" value="other">
+        <label class="govuk-label govuk-checkboxes__label" for="nationality-3">
+Other       </label>
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </fieldset>
+</div>
+    
+  </fieldset>
+</div>
+
+
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="event-name">
+    If other - provide more detail
+  </label>
+  <input class="govuk-input" id="event-name" name="event-name" type="text">
+</div>
+
+ 
+  </fieldset>
+</div>
+</div>
+ 
+   <a href="quantity" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+</div>
+
+</div>
+        </div>
+  </div>
+</div>
+
+    
+</div>
+
+
+
+    
+
+{% endblock %}

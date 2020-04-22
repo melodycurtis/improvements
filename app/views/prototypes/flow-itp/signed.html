@@ -14,13 +14,15 @@
     </span>
   </p>
 </div>
-<a href="#" class="govuk-back-link">Back</a>
+  
 
 {% endblock %}
 
 {% block content %}
 
 
+
+  
     
 
    <div class="govuk-grid-row">
@@ -77,16 +79,34 @@
     
 </div>
 
-</div>
 
 
-        </div>
-  </div>
+      <div class="govuk-grid-column-one-third">
 
-</div>
+        <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
 
-    
-</div>
-    
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Related content
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-!-font-size-16">
+              
+              
+
+              <li>
+                <a class="govuk-link" href="#"target="_blank">
+                  LRS agreement terms and condition
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
 
 {% endblock %}
