@@ -1,0 +1,139 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="how-contacted-conditional-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        What is your organisation type?</h1>
+    </legend><br>
+    <div class="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="#">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+          State funded school or academy
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="#">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+          Independent school or academy
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="charity">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          Further Education college or sixth form
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-4" name="where-do-you-live" type="radio" value="#">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-4">
+          Independent training provider
+        </label>
+      </div>
+<div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="#">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          Higher Education training provider
+        </label>
+      </div>
+
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          Local authority
+        </label>
+      </div>
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          Careers service
+        </label>
+      </div>
+
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+        <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+          Charity
+        </label>
+      </div>
+
+       <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="how-contacted-conditional" name="how-contacted" type="radio" value="email" data-aria-controls="conditional-how-contacted-conditional">
+        <label class="govuk-label govuk-radios__label" for="how-contacted-conditional">
+          Other
+        </label>
+      </div>
+      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-how-contacted-conditional">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-email">
+           Enter your organisation type
+          </label>
+          <input class="govuk-input govuk-!-width-one-third" id="contact-by-email" name="contact-by-email" type="email" spellcheck="false">
+        </div>
+
+     
+    
+      
+    </div>
+  </fieldset>
+</div>
+    
+
+
+      </div>
+    
+</div>
+
+
+
+
+ 
+   <a href="location" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+</div>
+
+</div>
+        </div>
+  </div>
+</div>
+
+    
+</div>
+
+
+
+    
+
+{% endblock %}
