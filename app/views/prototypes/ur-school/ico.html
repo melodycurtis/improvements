@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+<a href="#" class="govuk-back-link">Back</a>
+
+{% endblock %}
+
+{% block content %}
+
+
+    
+
+   <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds"> 
+
+
+<div class="govuk-form-group">
+  <fieldset class="govuk-fieldset">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+      <h1 class="govuk-fieldset__heading">
+        What is your Information Commissioner's Office (ICO) registration number?</h1>
+    </legend><br>
+    
+  
+
+
+<div class="govuk-form-group">
+  <label class="govuk-label" for="one-half">
+    Enter your ICO registration number
+  </label>
+  <input class="govuk-input govuk-!-width-one-half" id="one-half" name="one-half" type="text">
+</div>
+
+ </fieldset></div>
+
+ <details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Why do I need an ICO number?
+    </span>
+  </summary>
+  <div class="govuk-details__text">
+   All organisations and sole traders need to pay a data protection fee to the ICO in order to access the LRS. This is due to the large amount of personal data it holds. 
+  </div>
+</details>
+
+ 
+   <a href="companies-house" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+    
+</div>
+
+ <div class="govuk-grid-column-one-third">
+
+        <!-- The Related items component is not part of GOV.UK Frontend but will be styled if used in the Prototype Kit -->
+
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Related content
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-!-font-size-16">
+              <li>
+                <a class="govuk-link" href="https://www.ukrlp.co.uk/ukrlp/ukrlp_registration.page_pls_regProviderStep1"target="_blank">
+                  Register on UKRLP
+                </a>
+              </li>
+              <li>
+                <a class="govuk-link" href="https://www.gov.uk/topic/further-education-skills/learning-records-service"target="_blank">
+                  Learning Records Service guidance
+                </a>
+              </li>
+
+              <li>
+                <a class="govuk-link" href="#"target="_blank">
+                  LRS agreement terms and condition
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+
+{% endblock %}
