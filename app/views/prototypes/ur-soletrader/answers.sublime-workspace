@@ -1,0 +1,432 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"rel",
+				"related-links-list"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"file",
+				"fileInput"
+			],
+			[
+				"l",
+				"link-hover-colour"
+			],
+			[
+				"se",
+				"secondary-text-colour"
+			],
+			[
+				"link",
+				"link-colour"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"sh",
+				"show-2"
+			],
+			[
+				"hi",
+				"hidden-2"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mu",
+				"multiple-choice"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"radio",
+				"radiobuttons"
+			],
+			[
+				"bold",
+				"bold-medium"
+			],
+			[
+				"bi",
+				"business"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"pensions",
+				"pension-sharing-order-1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/melodycurtis/projects/GIT-lesson_intermediate/index.html",
+		"/Users/melodycurtis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/melodycurtis/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/added.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/lrs-yes.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/location.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/companies-house.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/ico.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/plr.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/lrs.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/confirmation.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/answers.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/super.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/quantity.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/charity copy.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/charity.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/type.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/ukrlp.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/find.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/find2.html",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/one/start.html",
+		"/Users/melodycurtis/projects/lrs/app/config.js",
+		"/Users/melodycurtis/projects/lrs/app/views/prototypes/two/start.html",
+		"/Users/melodycurtis/projects/lrs/app/views/index.html",
+		"/Users/melodycurtis/projects/lrs/app/assets/javascripts/application.js",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/provider/answers-provider.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/provider/start-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/staff-last.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/staff-list.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/ethnicity-me.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/disability2.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/disability.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/nationality.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/dob.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/start-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/mis.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/config.js",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/posts.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/one.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/choose.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/upload/upload.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/answers-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/ethnicity2.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/gender.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/dob.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/hello.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/nationality2.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/gender2.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/index.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/start-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/assets/sass/application.scss",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/vacancies.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/confirmation.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/hello1.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/hello.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/answers-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/gender.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/disability.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/nationality.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/dob.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/ethnicity-me.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/questions.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/answers-provider.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/done-list.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/answers-provider.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/percentage.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/start.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/ethnicity.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/dob.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/answers-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/answers-provider.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/choose-new.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/mis.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/upload.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/details.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/start.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/home.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/add-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/staff-list.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/mis.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/one-revisit.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/posts-revisit.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/one.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/posts.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/upload.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/collection/choose.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/start-staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/choose.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/role.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/confirmation.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/one.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/two.html",
+		"/Users/melodycurtis/projects/fe-work-new/docs/views/layout.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/role.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/home.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/start.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/staff-flow/home.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/confirmation.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/staff.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/home.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/two.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/answers.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/starting/support.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/role.html",
+		"/Users/melodycurtis/projects/Improvements/app/config.js",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/upload.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/name.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/index.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/dashboard.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/upload-new-version.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/bulk.html",
+		"/Users/melodycurtis/projects/Improvements/app/assets/sass/application.scss",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/start-with-boxes.html",
+		"/Users/melodycurtis/projects/Improvements/app/views/prototypes/fis/upload-try-again.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/one.html",
+		"/Users/melodycurtis/projects/fe-work-new/app/views/prototypes/questions/answers.html",
+		"/Users/melodycurtis/Desktop/GOV.UK for wireframing.svg",
+		"/Users/melodycurtis/projects/Workforce/app/views/index.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/seven.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/one.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/two.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/three.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/four.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/five.html",
+		"/Users/melodycurtis/projects/Workforce/app/views/prototypes/questions/six.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "answers.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
