@@ -14,15 +14,16 @@
     </span>
   </p>
 </div>
-<a href="ukrlp" class="govuk-back-link">Back</a> 
-  
+<a href="#" class="govuk-back-link">Back</a>
 
 {% endblock %}
 
 {% block content %}
 
 
-         <div class="govuk-grid-row">
+    
+
+   <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds"> 
 
 
@@ -30,18 +31,44 @@
   <fieldset class="govuk-fieldset">
     <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
       <h1 class="govuk-fieldset__heading">
-        What is your Information Commissioner's Office (ICO) registration number?</h1>
+        Do you have an Information Commissioner's Office (ICO) registration number?</h1>
     </legend><br>
     
-  
+  <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="how-contacted-conditional-hint">
+    
+    
+    <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="how-contacted-conditional" name="how-contacted" type="radio" value="email" data-aria-controls="conditional-how-contacted-conditional">
+        <label class="govuk-label govuk-radios__label" for="how-contacted-conditional">
+          No
+        </label>
+      </div>
+     
+      <div class="govuk-radios__item">
+        <input class="govuk-radios__input" id="how-contacted-conditional-2" name="how-contacted" type="radio" value="phone" data-aria-controls="conditional-how-contacted-conditional-2">
+        <label class="govuk-label govuk-radios__label" for="how-contacted-conditional-2">
+          Yes
+        </label>
+      </div>
+      <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-how-contacted-conditional-2">
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="contact-by-phone">
+            Enter your ICO number
+          </label>
+          <input class="govuk-input govuk-!-width-one-third" id="contact-by-phone" name="contact-by-phone" type="tel">
+        </div>
 
-
-<div class="govuk-form-group">
-  <label class="govuk-label" for="one-half">
-    Enter your ICO number
-  </label>
-  <input class="govuk-input govuk-!-width-one-half" id="one-half" name="one-half" type="text">
+      </div>
+      
+      
+    </div>
+  </fieldset>
 </div>
+
+
+
 
  </fieldset></div>
 
@@ -52,64 +79,32 @@
     </span>
   </summary>
   <div class="govuk-details__text">
-   All organisations and sole traders need to pay a data protection fee to the ICO to access the LRS. This is due to the large amount of personal data it holds. 
+   All organisations and sole traders need to pay a data protection fee to the ICO in order to access the LRS. This is due to the large amount of personal data it holds. 
   </div>
 </details>
 
+ 
 
-
-  <p>You need to register with the ICO even if you're exempt from the fee. <br><a href="https://ico.org.uk" target="_blank">Check if you need to pay a fee</a>
+  <p>You need to register with the ICO even if you're exempt from the fee.<br>
+    <a href="https://ico.org.uk/for-organisations/data-protection-fee/self-assessment/" target="_blank"> Check if you need to pay a fee</a>
 </p>
   
-
-<br><br>
+</div>
+</div><br>
  
-        
- <a href="lrs" class="govuk-button show-continue" style="display: inline;">
+   <a href="lrs" class="govuk-button show-continue" style="display: inline;">
       Continue
     </a>
+    
+</div>
 
-          
-        
-      </div>
-      
+</div>
+        </div>
+  </div>
+</div>
 
-      
+    
 
-
-      <div class="govuk-grid-column-one-third">
-
-      
-
-        <aside class="app-related-items" role="complementary">
-          <h2 class="govuk-heading-m" id="subsection-title">
-            Related content
-          </h2>
-          <nav role="navigation" aria-labelledby="subsection-title">
-            <ul class="govuk-list govuk-!-font-size-16">
-              <li>
-                <a class="govuk-link" href="https://ico.org.uk"target="_blank">
-                  Information Commissioner’s Office
-                </a>
-              </li>
-              
-              <li>
-                <a class="govuk-link" href="https://www.gov.uk/government/organisations/charity-commission"target="_blank">
-                  Charity Commission
-                </a>
-              </li>
-
-              
-              
-            </ul>
-          
-
-          </nav>
-        </aside>
-
-      </div>
-    </div>
-  </main>
-
+    
 
 {% endblock %}
