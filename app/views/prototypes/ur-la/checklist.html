@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+{% block beforeContent %}
+  <div class="govuk-phase-banner">
+  <p class="govuk-phase-banner__content">
+    <strong class="govuk-tag govuk-phase-banner__content__tag">
+      prototype
+    </strong>
+    <span class="govuk-phase-banner__text">
+      This is a new service – your <a class="govuk-link" href="#">feedback</a> will help us to improve it.
+    </span>
+  </p>
+</div>
+<a href="ukrlp" class="govuk-back-link">Back</a> 
+  
+
+{% endblock %}
+
+{% block content %}
+
+
+         <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">What you'll need</h1>
+
+       <ul class="govuk-list govuk-list--bullet">
+          <li>your Information Commissioner’s Office number</li>
+          <li>the number of learners that your organisation will typically enrol per year</li>
+          <li>contact details for the person who has been nominated to manage user's access for your organisation</li>
+          <li>contact details for the person signing the agreement - they must be listed as a ‘person with significant control’ on Companies House so that we can verify their identity</li>
+          <li>if you need access because an awarding body requires it, then you will need a copy of the accreditation certificate</li>
+          
+        </ul></p><br>
+
+          
+        <br>   
+
+        
+ <a href="ico" class="govuk-button show-continue" style="display: inline;">
+      Continue
+    </a>
+
+          
+        
+      </div>
+
+      
+
+
+      <div class="govuk-grid-column-one-third">
+
+      
+
+        <aside class="app-related-items" role="complementary">
+          <h2 class="govuk-heading-m" id="subsection-title">
+            Related content
+          </h2>
+          <nav role="navigation" aria-labelledby="subsection-title">
+            <ul class="govuk-list govuk-!-font-size-16">
+              <li>Check your
+                <a class="govuk-link" href="https://ico.org.uk"target="_blank">
+                  ICO
+                </a> number
+              </li>
+              <li>Check your 
+                <a class="govuk-link" href="https://www.gov.uk/government/organisations/companies-house"target="_blank">
+                  Companies House
+                </a>information
+              </li>
+              
+            </ul>
+          </nav>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+
+{% endblock %}
